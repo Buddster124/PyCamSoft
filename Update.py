@@ -8,8 +8,8 @@ from time import sleep
 from pathlib import Path
 from git import Repo
 
-update_url = 'https://git.012345.tech/buddster3/PyCamSoft/raw/branch/main/Version'
-update_repo = 'https://git.012345.tech/buddster3/PyCamSoft.git'
+update_url = 'https://raw.githubusercontent.com/Buddster124/PyCamSoft/main/Version'
+update_repo = 'https://github.com/Buddster124/PyCamSoft.git'
 cwd = os.getcwd()
 current_user = os.environ.get('USER')
 
